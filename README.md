@@ -29,14 +29,6 @@ This repository curates papers and resources at the intersection of **embodied i
 - [Excluded From This Strict Version](#excluded-from-this-strict-version)
 - [Feedback](#feedback)
 
-## Curation Scope
-
-| Included | Excluded from main sections | Selection rule |
-| --- | --- | --- |
-| Healthcare robotics, surgical autonomy, rehabilitation robots, assistive manipulation, social robots in care, hospital logistics robots, telepresence robots, embodied medical training systems, and healthcare-oriented robot learning datasets or simulators. | Screen-only medical foundation models, EHR/chat agents, medical image-only VLMs, clinical decision benchmarks without embodiment, and general hospital IT systems without a robot body or action loop. | Older papers are retained only when they are landmarks, high-citation surveys, clinical evidence papers, or widely used datasets/benchmarks. Recent papers are prioritized when they involve real robots, strong institutions, top venues, open datasets/code, or direct healthcare embodiment. |
-
-**Cross-listing policy:** a small number of resources appear in more than one section when they are both a task paper and a dataset, simulator, survey, or robot prototype.
-
 ## Surveys and Scope
 
 - **[Robotics-Healthcare] Robotics in Healthcare: A Survey**<br>
