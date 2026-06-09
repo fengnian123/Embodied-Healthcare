@@ -1,7 +1,7 @@
 <div align="center">
 
 <h1>
-  <sub><img src="assets/embodied-healthcare-icon-256.png" alt="Embodied Healthcare icon" width="60"></sub>&nbsp;Awesome Embodied Healthcare
+  <img src="assets/embodied-healthcare-title-icon.png" alt="Embodied Healthcare icon" width="60">&nbsp;Awesome Embodied Healthcare
 </h1>
 
 A strict bibliography for healthcare systems where intelligence is grounded in bodies, actions, robots, or embodied interaction.
