@@ -15,12 +15,6 @@ A strict bibliography for healthcare systems where intelligence is grounded in b
 
 This repository curates papers and resources at the intersection of **embodied intelligence** and **healthcare**. The main list focuses on work where healthcare is connected to a robot body, physical interaction, simulated embodiment, clinical action loop, or human-robot interaction.
 
-This is a strict re-screened list. Pure medical LLMs, EHR agents, static medical VLMs, screen-only clinical decision systems, and generic healthcare informatics papers are intentionally excluded from the main sections.
-
-The list is intentionally biased toward recent work. Older papers are kept when they are field landmarks, high-citation surveys, clinical evidence papers, or widely reused datasets and benchmarks.
-
-> This repository is a research bibliography, not medical advice or clinical deployment guidance. Publication labels are compact metadata for navigation; please verify final venue and citation details before formal use.
-
 ## Contents
 
 - [Curation Scope](#curation-scope)
