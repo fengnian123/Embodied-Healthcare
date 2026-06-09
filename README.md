@@ -1,15 +1,18 @@
-<div align="center">
-
-<img src="assets/embodied-healthcare-icon-256.png" alt="Embodied Healthcare icon" width="150">
-
-# Awesome Embodied Healthcare
-
-A strict bibliography for healthcare systems where intelligence is grounded in bodies, actions, robots, or embodied interaction.
-
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Last Updated](https://img.shields.io/badge/updated-2026--06--09-blue)](#)
-
-</div>
+<table>
+  <tr>
+    <td width="104" align="center">
+      <img src="assets/embodied-healthcare-icon-256.png" alt="Embodied Healthcare icon" width="92">
+    </td>
+    <td>
+      <h1>Awesome Embodied Healthcare</h1>
+      <p>A strict bibliography for healthcare systems where intelligence is grounded in bodies, actions, robots, or embodied interaction.</p>
+      <p>
+        <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
+        <img src="https://img.shields.io/badge/updated-2026--06--09-blue" alt="Last Updated">
+      </p>
+    </td>
+  </tr>
+</table>
 
 ## Overview
 
