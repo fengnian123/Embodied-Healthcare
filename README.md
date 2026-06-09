@@ -17,7 +17,6 @@ This repository curates papers and resources at the intersection of **embodied i
 
 ## Contents
 
-- [Curation Scope](#curation-scope)
 - [Surveys and Scope](#surveys-and-scope)
 - [Surgical Embodied Intelligence](#surgical-embodied-intelligence)
 - [Rehabilitation and Physical Assistance](#rehabilitation-and-physical-assistance)
@@ -26,7 +25,7 @@ This repository curates papers and resources at the intersection of **embodied i
 - [Healthcare LLM / VLA Robot Prototypes](#healthcare-llm--vla-robot-prototypes)
 - [Datasets, Simulators, and Benchmarks](#datasets-simulators-and-benchmarks)
 - [Embodied Intelligence Foundations](#embodied-intelligence-foundations)
-- [Excluded From This Strict Version](#excluded-from-this-strict-version)
+- [Medical Foundation Context](#medical-foundation-context)
 - [Feedback](#feedback)
 
 ## Surveys and Scope
@@ -39,6 +38,14 @@ This repository curates papers and resources at the intersection of **embodied i
   `Robotics 2024` | [[pdf]](https://www.mdpi.com/2218-6581/13/8/112/pdf) | [[doi]](https://doi.org/10.3390/robotics13080112)<br>
   Identifies multimodal communication, semantic reasoning, and task planning as core LLM-healthcare-robot requirements.
 
+- **[Surgical-FM] General-purpose foundation models for increased autonomy in robot-assisted surgery**<br>
+  `Nature Machine Intelligence 2024` | [[abs]](https://arxiv.org/abs/2401.00678) | [[doi]](https://doi.org/10.1038/s42256-024-00917-4)<br>
+  Perspective on multimodal, multitask, vision-language-action foundation models for surgical robot autonomy.
+
+- **[AMR-Healthcare] A Comprehensive Review of Autonomous Mobile Robots in Healthcare: Implications for Patient-Transporting Human-Following Robots**<br>
+  `Robotics 2025` | [[paper]](https://www.mdpi.com/2218-6581/14/12/179)<br>
+  Recent review of autonomous mobile robots for patient transport, following behavior, navigation, and healthcare deployment.
+
 - **[Screens2Scenes] From screens to scenes: A survey of embodied AI in healthcare**<br>
   `Information Fusion 2025` | [[pdf]](https://arxiv.org/pdf/2501.07468) | [[doi]](https://doi.org/10.1016/j.inffus.2025.103033)<br>
   Defines healthcare EAI as perception-action systems rather than screen-only medical AI.
@@ -50,6 +57,10 @@ This repository curates papers and resources at the intersection of **embodied i
 - **[SASR-Health] A Narrative Review of Systematic Reviews on the Applications of Social and Assistive Support Robots in the Health Domain**<br>
   `Applied Sciences 2025` | [[doi]](https://doi.org/10.3390/app15073793)<br>
   Summarizes recent systematic-review evidence for social and assistive robots in healthcare, therapy, dementia, and elder care.
+
+- **[Surgical-LVMs] Innovating robot-assisted surgery through large vision models**<br>
+  `Nature Reviews Electrical Engineering 2025` | [[doi]](https://doi.org/10.1038/s44287-025-00166-6)<br>
+  Reviews large vision and vision-language models for robot-assisted surgery, including perception, planning, and autonomy.
 
 - **[Healthcare-EAI-SR] Embodied Artificial Intelligence in Healthcare: A Systematic Review of Robotic Perception, Decision-Making, and Clinical Impact**<br>
   `Healthcare 2026` | [[pdf]](https://www.mdpi.com/2227-9032/14/5/572/pdf) | [[doi]](https://doi.org/10.3390/healthcare14050572)<br>
@@ -113,6 +124,18 @@ This repository curates papers and resources at the intersection of **embodied i
   `arXiv 2025` | [[abs]](https://arxiv.org/abs/2510.20965) | [[data]](https://huggingface.co/datasets/jchen396/suturebot)<br>
   New dVRK suturing benchmark and dataset evaluating long-horizon autonomous suturing and modern VLA policies.
 
+- **[Cosmos-Surg-dVRK] Cosmos-Surg-dVRK: World Foundation Model-based Automated Online Evaluation of Surgical Robot Policy Learning**<br>
+  `arXiv 2025` | [[abs]](https://arxiv.org/abs/2510.16240)<br>
+  Surgical world-model benchmark for automated online evaluation of dVRK policy learning.
+
+- **[SurgWorld] SurgWorld: Learning Surgical Robot Policies from Videos via World Modeling**<br>
+  `arXiv 2025` | [[abs]](https://arxiv.org/abs/2512.23162)<br>
+  Uses world modeling to synthesize surgical video-action data for training surgical robot policies.
+
+- **[Surgical-3D-Priors] Learning Surgical Robotic Manipulation with 3D Spatial Priors**<br>
+  `CVPR 2026` | [[pdf]](https://openaccess.thecvf.com/content/CVPR2026/papers/Sheng_Learning_Surgical_Robotic_Manipulation_with_3D_Spatial_Priors_CVPR_2026_paper.pdf)<br>
+  Recent surgical manipulation method using 3D spatial priors for robot learning.
+
 ## Rehabilitation and Physical Assistance
 
 - **[UpperLimb-Rehab] A survey on robotic devices for upper limb rehabilitation**<br>
@@ -120,7 +143,7 @@ This repository curates papers and resources at the intersection of **embodied i
   Older but high-impact map of upper-limb rehabilitation robot mechanisms and clinical needs.
 
 - **[Shared-pHRI] A Review of Intent Detection, Arbitration, and Communication Aspects of Shared Control for Physical Human-Robot Interaction**<br>
-  `Applied Mechanics Reviews 2018` | [[pdf]](https://asmedigitalcollection.asme.org/appliedmechanicsreviews/article-pdf/70/1/010804/5964415/amr_070_01_010804.pdf) | [[doi]](https://doi.org/10.1115/1.4039145)<br>
+  `Applied Mechanics Reviews 2018` | [[pdf]](https://mahilab.rice.edu/sites/default/files/publications/amr_2018_review.pdf) | [[doi]](https://doi.org/10.1115/1.4039145)<br>
   Foundational shared-control review for rehabilitation, prosthetics, and assistive robots.
 
 - **[AssistiveGym] Assistive Gym: A Physics Simulation Framework for Assistive Robotics**<br>
@@ -131,9 +154,21 @@ This repository curates papers and resources at the intersection of **embodied i
   `Health Technology Assessment 2020` | [[pdf]](https://njl-admin.nihr.ac.uk/document/download/2034515) | [[doi]](https://doi.org/10.3310/hta24540)<br>
   Multicenter clinical trial evidence for upper-limb rehabilitation robots.
 
+- **[AVR-Gym] Assistive VR Gym: Interactions with Real People to Improve Virtual Assistive Robots**<br>
+  `CoRL 2020` | [[abs]](https://arxiv.org/abs/2007.04959)<br>
+  Human-in-the-loop assistive robot simulation for feeding, drinking, itch scratching, and bed bathing tasks.
+
 - **[UL-Rehab-2024] Assistive Robotics for Upper Limb Physical Rehabilitation: A Systematic Review and Future Prospects**<br>
   `Chinese Journal of Mechanical Engineering 2024` | [[doi]](https://doi.org/10.1186/s10033-024-01056-y)<br>
   Recent rehabilitation robotics review with bibliometric analysis and forward-looking technical challenges.
+
+- **[CART-MPC] CART-MPC: Coordinating Assistive Devices for Robot-Assisted Transferring with Multi-Agent Model Predictive Control**<br>
+  `arXiv 2025` | [[abs]](https://arxiv.org/abs/2501.11149)<br>
+  Coordinates a robot arm, Hoyer sling, and wheelchair for bed-to-wheelchair transfer assistance.
+
+- **[GRACE] GRACE: Generalizing Robot-Assisted Caregiving with User Functionality Embeddings**<br>
+  `HRI 2025` | [[abs]](https://arxiv.org/abs/2501.17855) | [[project]](https://emprise.cs.cornell.edu/grace/)<br>
+  Personalizes robot assistance using functional range-of-motion embeddings derived from occupational therapy assessments.
 
 - **[SoftRehab] Soft Robotics in Upper Limb Neurorehabilitation and Assistance: Current Clinical Evidence and Recommendations**<br>
   `Soft Robotics 2025` | [[doi]](https://doi.org/10.1089/soro.2024.0034)<br>
@@ -165,6 +200,10 @@ This repository curates papers and resources at the intersection of **embodied i
   `Ageing Research Reviews 2022` | [[doi]](https://doi.org/10.1016/j.arr.2022.101633)<br>
   Strong evidence review of feasibility, acceptability, and clinical effects of dementia-care robots.
 
+- **[RCareWorld] RCareWorld: A Human-centric Simulation World for Caregiving Robots**<br>
+  `IROS 2022` | [[abs]](https://arxiv.org/abs/2210.10821) | [[project]](https://emprise.cs.cornell.edu/rcareworld/)<br>
+  Human-centric simulation world for physical and social robotic caregiving designed with stakeholder input.
+
 - **[VP-Robot-LLM] Creating Virtual Patients using Robots and Large Language Models: A Preliminary Study with Medical Students**<br>
   `ACM HRI Companion 2024` | [[pdf]](https://dl.acm.org/doi/pdf/10.1145/3610978.3640592) | [[doi]](https://doi.org/10.1145/3610978.3640592)<br>
   Social robot embodiment for interactive medical education.
@@ -188,6 +227,10 @@ This repository curates papers and resources at the intersection of **embodied i
 - **[OpenRoboCare] OpenRoboCare: A Multimodal Multi-Task Expert Demonstration Dataset for Robot Caregiving**<br>
   `arXiv 2025` | [[abs]](https://arxiv.org/abs/2511.13707)<br>
   Expert occupational-therapist demonstrations for ADL caregiving with RGB-D, pose, gaze, annotation, and tactile signals.
+
+- **[CareEval] CareEval: Evaluating Large Language Models for Decision-Making in Physical Robot Caregiving**<br>
+  `HRI Companion 2026` | [[project]](https://emprise.cs.cornell.edu/care-eval/) | [[pdf]](https://emprise.cs.cornell.edu/care-eval/static/pdfs/paper.pdf)<br>
+  Expert-validated benchmark for safe, user-aware LLM decision-making in physical robot caregiving.
 
 ## Hospital Service and Nursing Robots
 
@@ -214,6 +257,10 @@ This repository curates papers and resources at the intersection of **embodied i
 - **[ORB] ORB: Operating Room Bot, Automating Operating Room Logistics through Mobile Manipulation**<br>
   `arXiv 2025` | [[abs]](https://arxiv.org/abs/2509.15600)<br>
   Recent operating-room logistics framework for mobile manipulation in hospital environments.
+
+- **[GPT-Social-Robot] A GPT-reinforced social robot for patient communication: a pilot study**<br>
+  `Frontiers in Digital Health 2025` | [[doi]](https://doi.org/10.3389/fdgth.2025.1653168)<br>
+  Pilot architecture and study for a GPT-connected social robot using validated clinical sources for patient communication.
 
 - **[Nursing-Control] Developing a Cross-Device Platform for Robotic Systems in Nursing Care: Mixed Methods Feasibility Study**<br>
   `JMIR Nursing 2026` | [[pdf]](https://nursing.jmir.org/2026/1/e84118/PDF)<br>
@@ -249,6 +296,10 @@ This repository curates papers and resources at the intersection of **embodied i
   `NVIDIA / Hugging Face 2026` | [[model]](https://huggingface.co/nvidia/SO_ARM_Starter_Gr00t)<br>
   Healthcare-facing VLA model card for autonomous surgical instrument management in Isaac for Healthcare.
 
+- **[RHA-Safety] Benchmarking the Safety of Large Language Models for Robotic Health Attendant Control**<br>
+  `arXiv 2026` | [[abs]](https://arxiv.org/abs/2604.26577)<br>
+  Safety benchmark for LLM-controlled robotic health attendants using medically grounded harmful-instruction scenarios.
+
 ## Datasets, Simulators, and Benchmarks
 
 - **[JIGSAWS] JHU-ISI Gesture and Skill Assessment Working Set (JIGSAWS): A Surgical Activity Dataset for Human Motion Modeling**<br>
@@ -267,6 +318,10 @@ This repository curates papers and resources at the intersection of **embodied i
   `IROS 2021` | [[doi]](https://doi.org/10.1109/IROS51168.2021.9635867) | [[code]](https://github.com/med-air/SurRoL)<br>
   Surgical robot learning simulator aligned with dVRK.
 
+- **[RCareWorld] RCareWorld: A Human-centric Simulation World for Caregiving Robots**<br>
+  `IROS 2022` | [[abs]](https://arxiv.org/abs/2210.10821) | [[project]](https://emprise.cs.cornell.edu/rcareworld/)<br>
+  Realistic caregiving simulator with ADL tasks, clinical mobility limitations, home environments, and assistive robots.
+
 - **[Open-X] Open X-Embodiment: Robotic Learning Datasets and RT-X Models**<br>
   `ICRA 2024` | [[pdf]](https://arxiv.org/pdf/2310.08864) | [[project]](https://robotics-transformer-x.github.io/)<br>
   Cross-embodiment robot data model, useful as a reference for future medical robot datasets.
@@ -274,6 +329,14 @@ This repository curates papers and resources at the intersection of **embodied i
 - **[SRT-H-Data] SRT-H supplementary data**<br>
   `Science Robotics 2025` | [[data]](https://doi.org/10.5281/zenodo.15637074)<br>
   Public artifact for language-conditioned surgical imitation learning.
+
+- **[DataGRACE] DataGRACE / GRACE functional assessment data**<br>
+  `HRI 2025` | [[project]](https://emprise.cs.cornell.edu/grace/)<br>
+  Functional assessment and range-of-motion data for personalizing robot-assisted caregiving.
+
+- **[Cosmos-Surg-dVRK] Cosmos-Surg-dVRK: World Foundation Model-based Automated Online Evaluation of Surgical Robot Policy Learning**<br>
+  `arXiv 2025` | [[abs]](https://arxiv.org/abs/2510.16240)<br>
+  Surgical world-model benchmark for automated policy evaluation against real dVRK outcomes.
 
 - **[SutureBot] SutureBot: A Precision Framework and Benchmark For Autonomous End-to-End Suturing**<br>
   `arXiv 2025` | [[abs]](https://arxiv.org/abs/2510.20965) | [[data]](https://huggingface.co/datasets/jchen396/suturebot)<br>
@@ -286,6 +349,10 @@ This repository curates papers and resources at the intersection of **embodied i
 - **[MedMassage-12K] MedMassage-12K / HMR-1 Benchmark**<br>
   `arXiv 2026` | [[abs]](https://arxiv.org/abs/2603.08817) | [[code]](https://github.com/Xiaofeng-Han-Res/HMR-1)<br>
   Multimodal acupoint massage dataset and benchmark for embodied healthcare VLMs.
+
+- **[CareEval] CareEval: Evaluating Large Language Models for Decision-Making in Physical Robot Caregiving**<br>
+  `HRI Companion 2026` | [[project]](https://emprise.cs.cornell.edu/care-eval/) | [[pdf]](https://emprise.cs.cornell.edu/care-eval/static/pdfs/paper.pdf)<br>
+  Benchmark for LLM decision-making in physical robot caregiving scenarios.
 
 ## Embodied Intelligence Foundations
 
@@ -323,9 +390,25 @@ These papers are kept as compact conceptual and technical background because emb
   `arXiv 2024` | [[abs]](https://arxiv.org/abs/2401.12963)<br>
   Uses foundation models to orchestrate robot fleets and scale real-world robot data collection.
 
+- **[OpenVLA] OpenVLA: An Open-Source Vision-Language-Action Model**<br>
+  `arXiv 2024` | [[abs]](https://arxiv.org/abs/2406.09246) | [[project]](https://openvla.github.io/)<br>
+  Open-source VLA model for robot manipulation, useful as a baseline for medical robot policy adaptation.
+
+- **[pi0] pi0: A Vision-Language-Action Flow Model for General Robot Control**<br>
+  `arXiv 2024` | [[abs]](https://arxiv.org/abs/2410.24164)<br>
+  Generalist VLA flow model for robot control across manipulation tasks.
+
 - **[ELLMER] Embodied large language models enable robots to complete complex tasks in unpredictable environments**<br>
   `Nature Machine Intelligence 2025` | [[pdf]](https://www.nature.com/articles/s42256-025-01005-x.pdf) | [[doi]](https://doi.org/10.1038/s42256-025-01005-x)<br>
   RAG plus LLM-enabled embodied robot execution in unpredictable environments.
+
+- **[Gemini-Robotics] Gemini Robotics: Bringing AI into the Physical World**<br>
+  `Google DeepMind 2025` | [[blog]](https://deepmind.google/discover/blog/gemini-robotics-brings-ai-into-the-physical-world/) | [[model]](https://deepmind.google/models/gemini-robotics/gemini-robotics/)<br>
+  General-purpose robot foundation model family combining vision-language reasoning with physical action.
+
+- **[GR00T-N1] NVIDIA Isaac GR00T N1: An Open Foundation Model for Generalist Humanoid Robots**<br>
+  `NVIDIA 2025` | [[model]](https://huggingface.co/nvidia/GR00T-N1-2B) | [[blog]](https://developer.nvidia.com/blog/accelerate-generalist-humanoid-robot-development-with-nvidia-isaac-gr00t-n1/)<br>
+  Open humanoid robot foundation model relevant to future healthcare humanoid and assistive robot systems.
 
 - **[RoboNeuron] RoboNeuron: A Middle-Layer Infrastructure for Agent-Driven Orchestration in Embodied AI**<br>
   `arXiv 2025` | [[abs]](https://arxiv.org/abs/2512.10394)<br>
