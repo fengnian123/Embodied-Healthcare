@@ -35,17 +35,13 @@ This repository curates papers and resources at the intersection of **embodied i
   `SN Computer Science 2024` | [[doi]](https://doi.org/10.1007/s42979-023-02551-0)<br>
   Recent broad survey with high readership and citation signal; useful for clinical robotics scope and deployment challenges.
 
-- **[Screens2Scenes] From screens to scenes: A survey of embodied AI in healthcare**<br>
-  `Information Fusion 2025` | [[pdf]](https://arxiv.org/pdf/2501.07468) | [[doi]](https://doi.org/10.1016/j.inffus.2025.103033)<br>
-  Defines healthcare EAI as perception-action systems rather than screen-only medical AI.
-
 - **[LLM-HCR] The Future of Intelligent Healthcare: A Systematic Analysis and Discussion on the Integration and Impact of Robots Using Large Language Models for Healthcare**<br>
   `Robotics 2024` | [[pdf]](https://www.mdpi.com/2218-6581/13/8/112/pdf) | [[doi]](https://doi.org/10.3390/robotics13080112)<br>
   Identifies multimodal communication, semantic reasoning, and task planning as core LLM-healthcare-robot requirements.
 
-- **[Healthcare-EAI-SR] Embodied Artificial Intelligence in Healthcare: A Systematic Review of Robotic Perception, Decision-Making, and Clinical Impact**<br>
-  `Healthcare 2026` | [[pdf]](https://www.mdpi.com/2227-9032/14/5/572/pdf) | [[doi]](https://doi.org/10.3390/healthcare14050572)<br>
-  Systematic review of healthcare EAI across surgical assistance, rehabilitation, hospital logistics, and telepresence.
+- **[Screens2Scenes] From screens to scenes: A survey of embodied AI in healthcare**<br>
+  `Information Fusion 2025` | [[pdf]](https://arxiv.org/pdf/2501.07468) | [[doi]](https://doi.org/10.1016/j.inffus.2025.103033)<br>
+  Defines healthcare EAI as perception-action systems rather than screen-only medical AI.
 
 - **[Foundation-Service-Robots] Embodied AI with Foundation Models for Mobile Service Robots: A Systematic Review**<br>
   `arXiv 2025` | [[pdf]](https://arxiv.org/pdf/2505.20503) | [[abs]](https://arxiv.org/abs/2505.20503)<br>
@@ -54,6 +50,10 @@ This repository curates papers and resources at the intersection of **embodied i
 - **[SASR-Health] A Narrative Review of Systematic Reviews on the Applications of Social and Assistive Support Robots in the Health Domain**<br>
   `Applied Sciences 2025` | [[doi]](https://doi.org/10.3390/app15073793)<br>
   Summarizes recent systematic-review evidence for social and assistive robots in healthcare, therapy, dementia, and elder care.
+
+- **[Healthcare-EAI-SR] Embodied Artificial Intelligence in Healthcare: A Systematic Review of Robotic Perception, Decision-Making, and Clinical Impact**<br>
+  `Healthcare 2026` | [[pdf]](https://www.mdpi.com/2227-9032/14/5/572/pdf) | [[doi]](https://doi.org/10.3390/healthcare14050572)<br>
+  Systematic review of healthcare EAI across surgical assistance, rehabilitation, hospital logistics, and telepresence.
 
 - **[Pediatric-EAI] A Survey on Embodied AI for Pediatrics**<br>
   `CVPRW 2026` | [[pdf]](https://openaccess.thecvf.com/content/CVPR2026W/CV4CHL/papers/Shen_A_Survey_on_Embodied_AI_for_Pediatrics_CVPRW_2026_paper.pdf)<br>
@@ -173,6 +173,10 @@ This repository curates papers and resources at the intersection of **embodied i
   `JMIR 2025` | [[doi]](https://doi.org/10.2196/63312)<br>
   Journal version of embodied virtual-patient training with LLM-driven interaction.
 
+- **[Dementia-Speech-Robot] Developing Conversational Speech Systems for Robots to Detect Speech Biomarkers of Cognition in People Living with Dementia**<br>
+  `arXiv 2025` | [[abs]](https://arxiv.org/abs/2502.10896)<br>
+  Recent robot conversation system using LLM-backed dialogue for dementia-related speech biomarker collection.
+
 - **[CareRobots-OlderAdults] The impact of care robots on older adults: A systematic review**<br>
   `Geriatric Nursing 2025` | [[pubmed]](https://pubmed.ncbi.nlm.nih.gov/40669132/) | [[doi]](https://doi.org/10.1016/j.gerinurse.2025.103507)<br>
   Recent systematic review of care robots' effects on older adults' well-being, quality of life, and health outcomes.
@@ -180,10 +184,6 @@ This repository curates papers and resources at the intersection of **embodied i
 - **[LLM-SAR-Geriatric] Integrating a Large Language Model Into a Socially Assistive Robot in a Hospital Geriatric Unit**<br>
   `JMIR Human Factors 2025` | [[paper]](https://humanfactors.jmir.org/2025/1/e81936)<br>
   Recent hospital study of an LLM-enabled socially assistive robot with user engagement and perception evaluation.
-
-- **[Dementia-Speech-Robot] Developing Conversational Speech Systems for Robots to Detect Speech Biomarkers of Cognition in People Living with Dementia**<br>
-  `arXiv 2025` | [[abs]](https://arxiv.org/abs/2502.10896)<br>
-  Recent robot conversation system using LLM-backed dialogue for dementia-related speech biomarker collection.
 
 - **[OpenRoboCare] OpenRoboCare: A Multimodal Multi-Task Expert Demonstration Dataset for Robot Caregiving**<br>
   `arXiv 2025` | [[abs]](https://arxiv.org/abs/2511.13707)<br>
@@ -275,13 +275,13 @@ This repository curates papers and resources at the intersection of **embodied i
   `Science Robotics 2025` | [[data]](https://doi.org/10.5281/zenodo.15637074)<br>
   Public artifact for language-conditioned surgical imitation learning.
 
-- **[OpenRoboCare] OpenRoboCare: A Multimodal Multi-Task Expert Demonstration Dataset for Robot Caregiving**<br>
-  `arXiv 2025` | [[abs]](https://arxiv.org/abs/2511.13707)<br>
-  Multimodal ADL caregiving demonstrations from occupational therapists.
-
 - **[SutureBot] SutureBot: A Precision Framework and Benchmark For Autonomous End-to-End Suturing**<br>
   `arXiv 2025` | [[abs]](https://arxiv.org/abs/2510.20965) | [[data]](https://huggingface.co/datasets/jchen396/suturebot)<br>
   dVRK suturing dataset and benchmark for precision-focused, long-horizon surgical manipulation.
+
+- **[OpenRoboCare] OpenRoboCare: A Multimodal Multi-Task Expert Demonstration Dataset for Robot Caregiving**<br>
+  `arXiv 2025` | [[abs]](https://arxiv.org/abs/2511.13707)<br>
+  Multimodal ADL caregiving demonstrations from occupational therapists.
 
 - **[MedMassage-12K] MedMassage-12K / HMR-1 Benchmark**<br>
   `arXiv 2026` | [[abs]](https://arxiv.org/abs/2603.08817) | [[code]](https://github.com/Xiaofeng-Han-Res/HMR-1)<br>
@@ -289,7 +289,7 @@ This repository curates papers and resources at the intersection of **embodied i
 
 ## Embodied Intelligence Foundations
 
-These papers are not healthcare papers. They are kept as compact conceptual and technical background because embodied healthcare builds on embodied intelligence. Older foundation papers are retained only when they remain major references for current robot learning or VLA work.
+These papers are kept as compact conceptual and technical background because embodied healthcare builds on both embodied intelligence and medical foundation models. Older foundation papers are retained only when they remain major references for current robot learning, VLA work, or medical multimodal AI.
 
 - **[SayCan] Do As I Can, Not As I Say: Grounding Language in Robotic Affordances**<br>
   `CoRL 2022` | [[pdf]](https://arxiv.org/pdf/2204.01691) | [[project]](https://say-can.github.io/)<br>
@@ -330,6 +330,34 @@ These papers are not healthcare papers. They are kept as compact conceptual and 
 - **[RoboNeuron] RoboNeuron: A Middle-Layer Infrastructure for Agent-Driven Orchestration in Embodied AI**<br>
   `arXiv 2025` | [[abs]](https://arxiv.org/abs/2512.10394)<br>
   Recent middleware layer connecting MCP-style LLM agents with robot middleware such as ROS2.
+
+### Medical Foundation Context
+
+These works are mostly not embodied or robotic by themselves. They are included as medical-domain foundation context for future embodied healthcare agents, where perception, clinical reasoning, and physical action must eventually be connected.
+
+- **[Med-PaLM] Large language models encode clinical knowledge**<br>
+  `Nature 2023` | [[doi]](https://doi.org/10.1038/s41586-023-06291-2)<br>
+  Landmark medical LLM paper introducing MultiMedQA and showing domain alignment for clinical question answering.
+
+- **[LLaVA-Med] LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day**<br>
+  `NeurIPS Datasets and Benchmarks 2023` | [[pdf]](https://papers.neurips.cc/paper_files/paper/2023/file/5abcdf8ecdcacba028c6662789194572-Paper-Datasets_and_Benchmarks.pdf) | [[abs]](https://arxiv.org/abs/2306.00890)<br>
+  Early open biomedical vision-language assistant with instruction-following data and model release.
+
+- **[Med-Flamingo] Med-Flamingo: a Multimodal Medical Few-shot Learner**<br>
+  `arXiv 2023` | [[abs]](https://arxiv.org/abs/2307.15189) | [[code]](https://github.com/snap-stanford/med-flamingo)<br>
+  Medical VLM for few-shot multimodal medical reasoning and open-ended visual medical QA.
+
+- **[Med-PaLM-2] Toward expert-level medical question answering with large language models**<br>
+  `Nature Medicine 2025` | [[doi]](https://doi.org/10.1038/s41591-024-03423-7)<br>
+  Important follow-up for expert-level medical QA, long-form evaluation, and medically aligned answer quality.
+
+- **[HealthGPT] HealthGPT: A Medical Large Vision-Language Model for Unifying Comprehension and Generation via Heterogeneous Knowledge Adaptation**<br>
+  `ICML 2025 Spotlight / arXiv 2025` | [[abs]](https://arxiv.org/abs/2502.09838) | [[code]](https://github.com/DCDmllm/HealthGPT)<br>
+  Unified medical LVLM that combines medical visual comprehension and generation through H-LoRA and hierarchical visual perception.
+
+- **[MedGemma] MedGemma: Open models for health AI development**<br>
+  `Google Health AI Developer Foundations 2025` | [[model-card]](https://developers.google.com/health-ai-developer-foundations/medgemma/model-card) | [[blog]](https://research.google/blog/medgemma-our-most-capable-open-models-for-health-ai-development/)<br>
+  Open medical text and image foundation models intended as starting points for downstream healthcare applications.
 
 ## Feedback
 
