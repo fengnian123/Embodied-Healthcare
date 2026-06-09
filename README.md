@@ -1,7 +1,7 @@
 <div align="center">
 
 <h1>
-  <img src="assets/embodied-healthcare-icon-256.png" alt="Embodied Healthcare icon" width="60" align="center">
+  <img src="assets/embodied-healthcare-icon-256.png" alt="Embodied Healthcare icon" width="60" style="vertical-align: text-bottom; margin-right: 8px;">
   Awesome Embodied Healthcare
 </h1>
 
