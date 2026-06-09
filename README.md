@@ -331,12 +331,6 @@ These papers are not healthcare papers. They are kept as compact conceptual and 
   `arXiv 2025` | [[abs]](https://arxiv.org/abs/2512.10394)<br>
   Recent middleware layer connecting MCP-style LLM agents with robot middleware such as ROS2.
 
-## Excluded From This Strict Version
-
-- Screen-only medical foundation models: Med-PaLM, GMAI, LLaVA-Med, Med-Flamingo, and generalist biomedical VLMs.
-- Screen-only medical agents and benchmarks: EHRAgent, MedAgents, MedAgentsBench, AgentClinic, and clinical decision agent benchmarks.
-- Generic healthcare AI, IoT, digital twin, and hospital informatics papers without a robot body, simulated embodiment, or action loop.
-
 ## Feedback
 
 Suggested additions should be directly embodied, healthcare-relevant, and preferably supported by top venue acceptance, strong citations, real deployment evidence, open robot data or code, or clear community adoption.
